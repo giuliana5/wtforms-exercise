@@ -1,0 +1,28 @@
+body {
+    margin: 2em;
+    background-color: #41B3A3;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+hr {
+    width: 15%;
+}
+
+.pets {
+    display: inline-block;
+    margin: 1em;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pet-name {
+    color: #C38D9E;
+    font-weight: bold;
+}
+
+
