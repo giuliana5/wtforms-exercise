@@ -28,7 +28,7 @@ def add_pet():
     if form.validate_on_submit():
         name = form.name.data
         species = form.species.data
-        photo_url = form.photo_url.data
+        photo_url = form.photo_url.data or "https://thecontemporarypet.com/wp-content/themes/contemporarypet/images/default.png"
         age = form.age.data
         notes = form.notes.data
 
