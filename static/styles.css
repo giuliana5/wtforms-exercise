@@ -13,7 +13,7 @@ hr {
     width: 15%;
 }
 
-.pets {
+.pet {
     display: inline-block;
     margin: 1em;
     font-size: 18px;
@@ -25,4 +25,18 @@ hr {
     font-weight: bold;
 }
 
+label {
+    display: inline-block;
+    width: 5%;
+    text-align: left;
+}
 
+.add {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #E8A87C;
+}
