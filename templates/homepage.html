@@ -6,7 +6,7 @@
 <hr>
 
 {% for pet in pets %}
-<div>
+<div class="pet">
     <img src="{{pet.photo_url}}" alt="{{pet.name}}" width="175px"/>
     <p><span class="pet-name">{{pet.name}}</span>
             {% if pet.available %}
@@ -17,5 +17,7 @@
     </p>
 </div>
 {% endfor %}
+
+<div><a class="add" href="/add">Add Pet</a></div>
 
 {% endblock %}
