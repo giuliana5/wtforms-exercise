@@ -1,6 +1,6 @@
 body {
     margin: 2em;
-    background-color: #41B3A3;
+    background-color: #5CDB95;
     color: white;
 }
 
@@ -21,7 +21,7 @@ hr {
 }
 
 .pet-name {
-    color: #C38D9E;
+    color: #05386B;
     font-weight: bold;
 }
 
@@ -31,12 +31,38 @@ label {
     text-align: left;
 }
 
-.add {
+.add, 
+button {
     color: white;
     text-decoration: none;
     margin: 1em;
     padding: 5px;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: #E8A87C;
+    background-color: #379683;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div {
+    margin: 15px;
+}
+
+.pet-inputs,
+hr {
+    background-color: rgb(237, 245, 225, .9);
+    border: 1px solid white;
+}
+
+button:hover,
+.add:hover {
+    text-decoration: underline;
+}
+
+.form-title {
+    text-align: left;
 }
