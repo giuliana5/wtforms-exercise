@@ -2,7 +2,8 @@
 {% block title %}Add Pet{% endblock %}
 {% block content %}
 
-<h1>Add Pet</h1>
+<h1 class="form-title">Add Pet</h1>
+<hr align="left">
 <form method="POST">
     {{ form.hidden_tag() }}
     {% for field in form if field.widget.input_type != 'hidden' %}
