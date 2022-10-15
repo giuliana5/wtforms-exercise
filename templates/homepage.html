@@ -8,7 +8,7 @@
 {% for pet in pets %}
 <div class="pet">
     <img src="{{pet.photo_url}}" alt="{{pet.name}}" width="175px"/>
-    <p><span class="pet-name">{{pet.name}}</span>
+    <p><a class="pet-name" href="/{{pet.id}}">{{pet.name}}</a>
             {% if pet.available %}
             <b>is available!</b>
             {% else %}
